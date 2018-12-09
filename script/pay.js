@@ -116,7 +116,7 @@ function login(){
                     host: 'none'
                 }
                 localStorage.setItem('globalVariables', JSON.stringify(globalVariables));
-                window.location.href = "home.html";
+                window.location.href = "index.html";
                 found++;
             }
             i = data.length;
@@ -160,7 +160,7 @@ function endSession(){ // Logout
         host: 'none'
     }
     localStorage.setItem('globalVariables', JSON.stringify(globalVariables));
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 function redirect(where){ // Redirect

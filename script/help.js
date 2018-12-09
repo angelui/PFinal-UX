@@ -127,7 +127,7 @@ function login(){
                     host: 'none'
                 }
                 localStorage.setItem('globalVariables', JSON.stringify(globalVariables));
-                window.location.href = "home.html";
+                window.location.href = "index.html";
                 found++;
             }
             i = data.length;
@@ -157,7 +157,7 @@ function changePopUpStatus(element, i){
 
 function clearStorage(){ // Clear LS
     localStorage.clear();
-    redirect('home.html');
+    redirect('index.html');
 }
 
 function show(toshow){ // Change MainContent display
@@ -175,7 +175,7 @@ function endSession(){ // Logout
         host: 'none'
     }
     localStorage.setItem('globalVariables', JSON.stringify(globalVariables));
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 function redirect(where){ // Redirect
