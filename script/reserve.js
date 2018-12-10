@@ -205,7 +205,7 @@ function redirect(where){ // Redirect
 }
 
 function pay(){ // Reserve button
-    if(JSON.parse(localStorage.getItem('globalVariables')).logged != 0 && document.getElementById('arriveDate2').value != "" && document.getElementById('leftDate2').value != ""){
+    if(JSON.parse(localStorage.getItem('globalVariables')).logged == 0 && document.getElementById('arriveDate2').value != "" && document.getElementById('leftDate2').value != ""){
         redirect('pay.html');
     }
     else{
