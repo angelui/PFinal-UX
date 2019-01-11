@@ -222,6 +222,14 @@ header{
 	#mainContent{
 		margin-top: 24%;
 	}
+	
+	#location {
+    		width: 94%;
+	}
+	
+	.inputD, .inputN {
+    		width: 95%;
+	}
 }
 
 
